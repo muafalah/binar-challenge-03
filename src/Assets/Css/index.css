@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/src/Assets/Fonts/Helvetica.ttf);
+}
+
+body {
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}

@@ -1,0 +1,20 @@
+.title-content {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+    padding: 0;
+}
+
+.breadcrumb-content {
+    font-size: 14px;
+    padding: 0;
+}
+
+.form-add-new {
+    background-color: white;
+}
+
+.imp {
+    color: red;
+}

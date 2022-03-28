@@ -1,0 +1,16 @@
+.side-menu {
+    height: 100%;
+}
+
+.sub-menu {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8A8A8A;
+}
+
+.sub-sub-menu {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    background-color: #CFD4ED;
+}

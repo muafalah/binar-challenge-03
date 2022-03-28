@@ -1,0 +1,18 @@
+.title-content {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    padding:5px 5px 5px 10px;  
+    border-left:#0D28A6 solid 4px;
+}
+
+.breadcrumb-content {
+    font-size: 14px;
+}

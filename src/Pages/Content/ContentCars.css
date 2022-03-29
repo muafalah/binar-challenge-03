@@ -13,3 +13,25 @@
     text-align: end;
     padding: 0;
 }
+
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius : 3px !important;
+    border-bottom-right-radius : 3px !important;
+}
+
+.btn-group>.btn:nth-child(n+3) {
+    border-top-left-radius : 3px !important;
+    border-bottom-left-radius : 3px !important;
+}
+
+.alert-berhasil {
+    width: 550px;
+    background-color: #73CA5C;
+    color: white;
+}
+
+.alert-hapus {
+    width: 550px;
+    background-color: #151515;
+    color: white;
+}

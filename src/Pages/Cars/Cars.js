@@ -5,6 +5,9 @@ import { NavbarDefault } from "../../Assets/Components/Navbar/NavbarDefault";
 import { SubMenu } from "../../Assets/Components/SubMenu/SubMenu";
 import { ContentCars } from '../Content/ContentCars';
 import { ContentsAddNewCars } from '../Content/ContentsAddNewCars';
+import { ContentEditCars } from '../Content/ContentEditCars';
+import { ContentCarsSuccess } from '../Content/ContentCarsSuccess';
+import { ContentCarsDelete } from '../Content/ContentCarsDelete';
 
 export const Cars = ({ page }) => {
 
@@ -16,6 +19,19 @@ export const Cars = ({ page }) => {
     if (page == "add new cars") {
       return <ContentsAddNewCars />
     }
+
+    if (page == "edit cars") {
+      return <ContentEditCars />
+    }
+
+    if (page == "success cars") {
+      return <ContentCarsSuccess />
+    }
+
+    if (page == "delete cars") {
+      return <ContentCarsDelete />
+    }
+
   }
 
   return (

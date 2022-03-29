@@ -3,13 +3,15 @@ import { Container, Form, FormControl, Nav, Navbar, NavDropdown, Button, Row, Co
 import UserProfile from "../../Img/user-profile.png"
 import IconArrowDown from "../../Img/icon-arrow-down.png"
 import Logo from "../../Img/logo.png"
+import IconBurger from "../../Img/icon-burger.png"
 
 export const NavbarDefault = () => {
   return (
     <div>
       <Navbar bg="white" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home"><img src={Logo} /></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={Logo} className="me-5" /></Navbar.Brand>
+          <img src={IconBurger} />
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
 

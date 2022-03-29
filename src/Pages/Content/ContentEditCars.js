@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
-import "./ContentAddNewCars.css";
+import "./ContentEditCars.css";
 import IconBreadcrumb from "../../Assets/Img/icon-breadcrumb.png"
 
-export const ContentsAddNewCars = () => {
+export const ContentEditCars = () => {
     return (
         <div>
             <Container>

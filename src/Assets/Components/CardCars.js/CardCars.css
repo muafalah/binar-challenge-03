@@ -12,3 +12,10 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.desc-delete {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}

@@ -1,18 +1,27 @@
-import "./ContentCars.css";
-import { Col, Container, Row, Button, ToggleButton, ButtonGroup, ToggleButtonGroup, Alert } from 'react-bootstrap'
+import React from 'react'
+import { Col, Container, Row, ToggleButton, ToggleButtonGroup, Button, Alert } from 'react-bootstrap'
+import { CardCars } from '../../Assets/Components/CardCars.js/CardCars'
 import IconAddNewCars from "../../Assets/Img/icon-addnew-car.png"
 import IconBreadcrumb from "../../Assets/Img/icon-breadcrumb.png"
-import { CardCars } from '../../Assets/Components/CardCars.js/CardCars';
-import { useState } from "react";
 
-export const ContentCars = () => {
-
+export const ContentCarsDelete = () => {
     return (
         <div>
             <Container>
                 <Row>
-                    <Col md={12} className="breadcrumb-content mt-3 mb-3">
-                        <b>Cars</b> <img src={IconBreadcrumb} /> List Cars
+                    <Col md={12}>
+                        <Row>
+                            <Col md={2} className="breadcrumb-content mt-3 mb-3">
+                                <b>Cars</b> <img src={IconBreadcrumb} /> List Cars
+                            </Col>
+                            <Col md={10}>
+                                <Alert variant="success" className="text-center alert-hapus">
+                                    <b>
+                                        Data Berhasil Dihapus
+                                    </b>
+                                </Alert>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col md={12}>
                         <Row>

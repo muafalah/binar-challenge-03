@@ -16,3 +16,15 @@
 .breadcrumb-content {
     font-size: 14px;
 }
+
+.thead-css {
+    background-color: #CFD4ED !important;
+}
+
+.tbody-css {
+    background-color: white !important;
+}
+
+.pagination-number {
+    text-align: end;
+}
